@@ -37,3 +37,10 @@ ul li a {
   margin-right: 2em;
   margin-left: auto;
 }
+
+div.img {
+  background: linear-gradient(to top, rgba(21, 35, 54, 0.7), rgba(0, 0, 0, 0.5)),
+    url("../img/mountains-ge60563ae7_640.png") center/cover no-repeat fixed;
+  min-height: 100vh;
+  text-align: center;
+}
