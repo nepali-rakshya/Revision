@@ -31,7 +31,7 @@ body {
   background: url(../img/mountains-ge60563ae7_640.png);
   background-size: cover;
   text-align: center;
-  
+  text-transform: lowercase;
 }
 
 .box {
