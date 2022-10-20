@@ -42,3 +42,7 @@ body {
   background: linear-gradient(to right, pink, skyblue);
   display: inline-block;
 }
+
+.label {
+  color: chartreuse;
+}
