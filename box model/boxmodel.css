@@ -4,5 +4,36 @@ h1 {
   margin: 40px;
   border: 2px solid pink;
   border-radius: 1em;
-  b;
+}
+
+.block {
+  outline: 1em solid pink;
+  width: 5em;
+  margin: 30px 50px 30px 20px;
+  margin-left: auto;
+}
+
+a.link {
+  outline: 1em solid skyblue;
+
+  font-style: italic;
+  font-weight: 00;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  background: lightgreen;
+  width: 20em;
+  margin: 0 auto;
+}
+
+ul li a {
+  text-decoration: none;
+  margin-right: 2em;
+  margin-left: auto;
 }
