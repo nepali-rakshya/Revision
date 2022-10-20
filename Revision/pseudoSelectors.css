@@ -1,0 +1,41 @@
+h1:hover {
+  color: red;
+}
+
+h2.pseudo {
+  color: blue;
+}
+
+h2#pseudo-primary {
+  color: pink;
+}
+
+.pseudo,
+#pseudo-primary {
+  font-size: 32px;
+}
+
+li:first-child {
+  color: blueviolet;
+}
+
+p a:visited {
+  color: skyblue;
+}
+
+p a:hover {
+  border: 2px solid red;
+}
+
+body {
+  background: url(../img/mountains-ge60563ae7_640.png);
+  background-size: cover;
+}
+
+.box {
+    height: 200px;
+    width: 150px;
+    border: 4px solid red;
+    background: linear-gradient(to right, pink, skyblue
+    );
+}
