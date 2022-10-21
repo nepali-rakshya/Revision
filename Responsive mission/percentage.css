@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  background: purple;
+  width: 80%;
+  padding: 60px;
+  margin: 0 auto;
+}
+
+.child {
+  background: skyblue;
+  margin: 0 auto;
+  width: 60%;
+  height: 200px;
+}
