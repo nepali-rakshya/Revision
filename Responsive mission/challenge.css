@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: white;
+}
+
+.parent {
+  background: #23424a;
+  width: 80%;
+  max-width: 55em;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.child {
+  width: 40%;
+}
+
+.child p {
+  margin-top: 1rem;
+}
