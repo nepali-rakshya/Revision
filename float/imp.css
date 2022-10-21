@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border: 5px solid silver;
+}
+
+.container1 {
+  border: 10px solid red;
+}
+
+.container2 {
+  border: 10px solid blue;
+  /* position: absolute;
+  top: 0px; */
+
+  /* position: relative;
+  top: 500px; */
+  width: 10vw;
+  float: right;
+  /* margin-top: 500px; */
+}
+
+.container3 {
+  border: 10px solid green;
+}
+
+/* .here {
+  position: relative;
+} */
+
+img {
+  float: left;
+  margin-right: 10px;
+}
