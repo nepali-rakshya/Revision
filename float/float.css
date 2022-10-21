@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  border: 3px solid red;
+  padding: 1em;
+  width: 50%;
+}
+
+img {
+  width: 100px;
+  float: left;
+}
+
+p {
+}
