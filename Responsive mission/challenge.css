@@ -6,21 +6,27 @@
 
 body {
   font-family: sans-serif;
+}
+
+/***************** Intro ********************/
+
+.intro {
+  background: #23424a;
+  padding: 2rem;
   color: white;
 }
 
-.parent {
-  background: #23424a;
-  width: 80%;
-  max-width: 55em;
-  margin: 0 auto;
-  padding: 2rem;
+.intro-title p {
+  margin-top: 1em;
 }
 
-.child {
+.intro-title {
   width: 40%;
 }
 
-.child p {
-  margin-top: 1rem;
+.container,
+.intro-title {
+  max-width: 55em;
+  padding: 2rem;
+  margin: 0 auto;
 }
