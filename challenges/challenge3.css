@@ -31,8 +31,7 @@
 /* ==== Intro, Button and Second common ==== */
 
 .intro-button,
-.intro-primary,
-.second {
+.intro-primary {
   max-width: 1000px;
   width: 80%;
   margin: 0 auto;
@@ -61,4 +60,26 @@ a:visited {
 
 a:hover {
   opacity: 0.75;
+}
+
+/* ************ SECOND ************ */
+.row-one,
+.row-two {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 4em 0;
+}
+
+.second-secondary {
+  background: #136c72;
+}
+
+.row-one {
+  color: black;
+}
+
+.row-two {
+  color: white;
 }
