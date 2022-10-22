@@ -28,10 +28,11 @@
   font-size: 3rem;
 }
 
-/* ==== Intro and Button common ==== */
+/* ==== Intro, Button and Second common ==== */
 
 .intro-button,
-.intro-primary {
+.intro-primary,
+.second {
   max-width: 1000px;
   width: 80%;
   margin: 0 auto;
