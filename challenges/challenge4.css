@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ******** INTRO ******** */
+.intro {
+  background: #23424a;
+  padding: 5em 0;
+  color: white;
+}
+
+.intro-primary-one {
+  width: 65%;
+}
+
+.intro-title p {
+  margin-top: 1em;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+}
+
+.intro-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+
+/* ==== Intro, Button and Second common ==== */
+
+.intro-button,
+.intro-primary {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ******** BUTTON ******** */
+
+a {
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  background: #38cfd9;
+  border-radius: 8em;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 2em;
+  text-decoration: none;
+  color: #23424a;
+}
+
+a:visited {
+  color: #23424a;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+/* ************ SECOND ************ */
+
+/* ===== row one and two common ==== */
+
+.row-one,
+.row-two {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  padding: 4em 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  text-align: center;
+}
+
+.second-secondary {
+  background: #136c72;
+}
+
+.row-one {
+  color: black;
+}
+
+.row-two {
+  color: white;
+}
+
+.row-one h2 {
+  color: #87629a;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+}
+
+.row-one .col-one + .col-one {
+  margin-left: 1em;
+}
+
+.row-two .col-two + .col-two {
+  margin-left: 3em;
+}
+
+.row-one h2,
+.row-two h2 {
+  margin-bottom: 1em;
+}
