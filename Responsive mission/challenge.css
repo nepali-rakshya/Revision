@@ -9,3 +9,29 @@ body {
 }
 
 /***************** Intro ********************/
+
+.intro {
+  background: #23424a;
+  color: white;
+  padding: 1em 0;
+}
+
+.intro-title {
+  width: 40%;
+}
+
+.intro-title p {
+  margin-top: 1em;
+}
+
+.intro-section,
+.container {
+  max-width: 50em;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container h2,
+p {
+  margin-top: 1em;
+}
