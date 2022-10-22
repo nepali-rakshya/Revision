@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ******** INTRO ******** */
+.intro {
+  background: #23424a;
+  padding: 5em 0;
+  color: white;
+}
+
+.intro-primary-one {
+  width: 65%;
+}
+
+.intro-title p {
+  margin-top: 1em;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+}
+
+.intro-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+
+/* ==== Intro and Button common ==== */
+
+.intro-button,
+.intro-primary {
+  max-width: 1000px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ******** BUTTON ******** */
+
+button {
+  padding: 0.5em 1.5em;
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+  background: #38cfd9;
+  border-radius: 8em;
+  border: none;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
