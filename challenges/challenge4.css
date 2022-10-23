@@ -13,10 +13,6 @@
   color: white;
 }
 
-.intro-primary-one {
-  width: 65%;
-}
-
 .intro-title p {
   margin-top: 1em;
   font-family: "Roboto", sans-serif;
@@ -31,7 +27,8 @@
 /* ==== Intro, Button and Second common ==== */
 
 .intro-button,
-.intro-primary {
+.intro-primary,
+.second {
   max-width: 1000px;
   width: 80%;
   margin: 0 auto;
@@ -62,4 +59,17 @@ a:hover {
   opacity: 0.75;
 }
 
+/* ******** IMAGE ******** */
+
+img {
+  width: 350px;
+}
+
 /* ************ SECOND ************ */
+
+/* ===== Common Flexbox ======= */
+
+.intro-primary-one,
+.second-primary {
+  display: flex;
+}
