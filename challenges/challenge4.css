@@ -62,14 +62,19 @@ a:hover {
 /* ******** IMAGE ******** */
 
 img {
-  width: 350px;
+  max-width: 100%;
 }
 
 /* ************ SECOND ************ */
 
 /* ===== Common Flexbox ======= */
 
-.intro-primary-one,
-.second-primary {
+.intro-primary-one {
   display: flex;
+  gap: 3em;
+}
+
+.intro-title,
+.row-one {
+  width: 62%;
 }
