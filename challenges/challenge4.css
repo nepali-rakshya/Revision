@@ -83,6 +83,7 @@ img {
 .intro-primary-one {
   display: flex;
   gap: 3em;
+  justify-content: space-between;
 }
 
 .second {
