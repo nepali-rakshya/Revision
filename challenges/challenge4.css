@@ -80,14 +80,14 @@ img {
 
 /* ===== Common Flexbox ======= */
 
-.second {
-  font-family: "Roboto", sans-serif;
-  font-size: 21px;
-}
-
 .intro-primary-one {
   display: flex;
   gap: 3em;
+}
+
+.second {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
 }
 
 .row-two {
