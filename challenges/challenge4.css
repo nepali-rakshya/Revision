@@ -11,6 +11,7 @@
   background: #23424a;
   padding: 5em 0;
   color: white;
+  margin-bottom: 3.5em;
 }
 
 .intro-title p {
@@ -74,7 +75,13 @@ img {
   gap: 3em;
 }
 
-.intro-title,
-.row-one {
-  width: 62%;
+.row-two {
+  background: #136c72;
+  text-align: center;
+  padding: 2.5em;
+  color: white;
+}
+
+.col-two h2 {
+  margin-top: 2em;
 }
