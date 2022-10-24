@@ -66,6 +66,16 @@ img {
   max-width: 100%;
 }
 
+.img,
+.row-two {
+  width: 40%;
+}
+
+.intro-title,
+.row-one {
+  width: 100%;
+}
+
 /* ************ SECOND ************ */
 
 /* ===== Common Flexbox ======= */
@@ -80,8 +90,4 @@ img {
   text-align: center;
   padding: 2.5em;
   color: white;
-}
-
-.col-two h2 {
-  margin-top: 2em;
 }
