@@ -68,7 +68,7 @@ img {
 
 .img,
 .row-two {
-  width: 40%;
+  width: 60%;
 }
 
 .intro-title,
@@ -80,6 +80,11 @@ img {
 
 /* ===== Common Flexbox ======= */
 
+.second {
+  font-family: "Roboto", sans-serif;
+  font-size: 21px;
+}
+
 .intro-primary-one {
   display: flex;
   gap: 3em;
@@ -88,6 +93,18 @@ img {
 .row-two {
   background: #136c72;
   text-align: center;
-  padding: 2.5em;
   color: white;
+}
+
+.col-two {
+  padding: 2em;
+}
+
+.col-two-first,
+.col-two-second {
+  margin-bottom: 2em;
+}
+
+.col-two h2 {
+  margin-bottom: 1em;
 }
