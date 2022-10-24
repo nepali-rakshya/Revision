@@ -105,6 +105,19 @@ img {
   margin-bottom: 2em;
 }
 
+.col-one h2 {
+  color: #136c72;
+  margin-bottom: 1em;
+}
+
+.col-one h2 {
+  color: #136c72;
+  margin-bottom: 1em;
+}
+.col-one p + p {
+  margin-top: 1em;
+}
+
 .col-two h2 {
   margin-bottom: 1em;
 }
