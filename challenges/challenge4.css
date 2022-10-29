@@ -159,3 +159,7 @@ nav ul {
   padding: 0.2em 0.7em;
   border-radius: 2em;
 }
+
+.nav_item.right {
+  margin-left: auto;
+}
