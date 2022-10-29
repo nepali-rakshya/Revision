@@ -37,7 +37,7 @@
 
 /* ******** BUTTON ******** */
 
-a {
+.button {
   display: inline-block;
   padding: 0.5em 1.5em;
   font-family: "Roboto", sans-serif;
@@ -52,11 +52,11 @@ a {
   color: #23424a;
 }
 
-a:visited {
+.button:visited {
   color: #23424a;
 }
 
-a:hover {
+.button:hover {
   opacity: 0.75;
 }
 
@@ -129,7 +129,6 @@ img {
 
 .navigation {
   background: #136c72;
-  color: white;
   padding: 1em 3em;
 }
 
@@ -144,14 +143,4 @@ nav ul {
 
 .nav_item {
   margin-left: 1.5em;
-}
-
-.nav_sign {
-  background: white;
-  color: #136c72;
-  border-radius: 2rem;
-  padding: 0.3em 1em;
-  /* position: absolute;
-  left: 20em;
-  top: -0.3em; */
 }
