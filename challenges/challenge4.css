@@ -29,7 +29,8 @@
 
 .intro-button,
 .intro-primary,
-.second {
+.second,
+.upper_bar {
   max-width: 1000px;
   width: 80%;
   margin: 0 auto;
@@ -130,14 +131,24 @@ img {
 .navigation {
   background: #136c72;
   padding: 1em 3em;
+}
+
+.upper_bar {
   display: flex;
   gap: 1em;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav_bar {
   list-style-type: none;
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
+  display: flex;
+  gap: 1em;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: space-between;
 }
 
 li a {
@@ -157,3 +168,13 @@ a.sign_up {
 }
 
 /* ======== Flexing them ======= */
+.nav_bar_one {
+  display: flex;
+  gap: 1em;
+  margin: 0 auto;
+}
+
+.nav_bar_two {
+  display: flex;
+  gap: 1em;
+}
