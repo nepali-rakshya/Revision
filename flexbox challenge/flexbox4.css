@@ -24,10 +24,9 @@
 }
 
 .first_section {
-  width: 65%;
+  width: 75%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   margin: 0 auto;
 }
 
