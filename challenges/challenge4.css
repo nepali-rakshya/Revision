@@ -131,35 +131,3 @@ img {
   background: #136c72;
   padding: 1em 3em;
 }
-
-nav ul {
-  list-style-type: none;
-  display: flex;
-  text-transform: uppercase;
-  font-family: "Roboto", sans-serif;
-  font-size: 15px;
-  position: relative;
-}
-
-.nav_item .nav_item_icon {
-  margin-left: 1.5em;
-  text-decoration: none;
-}
-
-.nav_item_icon:visited {
-  color: white;
-}
-
-.sign_up:visited {
-  color: #136c72;
-}
-
-.sign_up {
-  background: white;
-  padding: 0.2em 0.7em;
-  border-radius: 2em;
-}
-
-.nav_item.right {
-  margin-left: auto;
-}
