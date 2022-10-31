@@ -133,6 +133,9 @@ img {
   padding: 1em 3em;
 }
 
+a > img {
+}
+
 .upper_bar {
   display: flex;
   gap: 1em;
@@ -146,8 +149,6 @@ img {
   font-family: "Roboto", sans-serif;
   display: flex;
   gap: 1em;
-  flex-grow: 1;
-  flex-shrink: 1;
   justify-content: space-between;
 }
 
