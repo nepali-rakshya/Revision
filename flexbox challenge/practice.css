@@ -32,6 +32,17 @@ nav {
   justify-content: space-between;
 }
 
+div {
+  display: flex;
+}
+
+div > ul {
+  background: skyblue;
+}
+
+header {
+  display: flex;
+}
 /* SOLUTION TO THE ALIGNMENT ISSUE
 
 https://forum.freecodecamp.org/t/align-items-property-not-working/333706
