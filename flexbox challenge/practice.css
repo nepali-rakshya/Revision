@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: black;
+  padding: 2em 2em;
+}
+
+.first,
+.second {
+  border: 3px solid blueviolet;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  border: 2px solid yellow;
+}
+
+a:visited {
+  color: red;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SOLUTION TO THE ALIGNMENT ISSUE
+
+https://forum.freecodecamp.org/t/align-items-property-not-working/333706
+
+
+*/
