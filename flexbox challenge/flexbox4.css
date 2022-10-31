@@ -5,3 +5,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.common {
+  max-width: 1128px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .first {
+    background: #f3eed9;
+    padding: 4em;
+    min-height: 660px;
+  }
+}
