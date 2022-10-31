@@ -63,7 +63,7 @@
 
 /* ******** IMAGE ******** */
 
-img {
+.img img {
   max-width: 100%;
 }
 
@@ -134,6 +134,7 @@ img {
 }
 
 a > img {
+  max-width: 100%;
 }
 
 .upper_bar {
@@ -149,7 +150,6 @@ a > img {
   font-family: "Roboto", sans-serif;
   display: flex;
   gap: 1em;
-  justify-content: space-between;
 }
 
 li a {
@@ -178,4 +178,18 @@ a.sign_up {
 .nav_bar_two {
   display: flex;
   gap: 1em;
+}
+
+/* ********* MEDIA QUERIES ******* */
+
+@media (max-width: 600px) {
+  .intro-primary-one {
+    display: block;
+  }
+
+  .img,
+  .row-two {
+    width: 100%;
+    margin-top: 2em;
+  }
 }
