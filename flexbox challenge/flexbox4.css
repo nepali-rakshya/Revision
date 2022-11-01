@@ -6,16 +6,143 @@
   box-sizing: border-box;
 }
 
+:root {
+  --first: #f3eed9;
+  --second: #222c2a;
+  --third: #824936;
+  --font-roboto: "Roboto", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
 .common {
   max-width: 1128px;
   width: 90%;
   margin: 0 auto;
 }
 
-@media (min-width: 600px) {
-  .first {
-    background: #f3eed9;
-    padding: 4em;
-    min-height: 660px;
+/* ******* FIRST ******** */
+
+.first {
+  background: var(--first);
+  text-align: center;
+}
+
+p.sub-title {
+  text-transform: uppercase;
+  font-family: var(--font-roboto);
+  font-size: 18px;
+  letter-spacing: 0.5em;
+  margin-bottom: 0.9em;
+  color: var(--second);
+}
+
+h1.main-title {
+  font-family: var(--font-playfair);
+  font-size: 60px;
+  line-height: 1em;
+  color: var(--third);
+}
+
+div.first_section {
+  display: flex;
+  flex-direction: column;
+  min-height: 660px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* ********SECOND******** */
+
+.second {
+  margin: 3.8em 0;
+}
+
+h2.second-title {
+  color: var(--third);
+  margin-bottom: 1em;
+  font-family: var(--font-playfair);
+  font-size: 36px;
+  text-align: center;
+}
+
+.second_section p + p {
+  margin-top: 1em;
+}
+
+.second_section p {
+  font-family: var(--font-roboto);
+  font-size: 21px;
+}
+
+/* *********THIRD******** */
+
+.third {
+  background: var(--second);
+  padding: 3.8em 0;
+  color: white;
+}
+
+h2.third-title {
+  font-family: var(--font-playfair);
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+div.third_section p {
+  font-family: var(--font-roboto);
+  font-size: 21px;
+  margin-bottom: 2em;
+}
+
+/* **********FOURTH*********** */
+
+.fourth {
+  background: var(--third);
+  padding: 3em 0;
+  color: white;
+}
+
+img.second-pic {
+  margin-bottom: 2em;
+}
+
+h2.fourth-title {
+  font-family: var(--font-playfair);
+  font-size: 36px;
+  margin-bottom: 1em;
+}
+
+.fourth_section-primary p {
+  font-family: var(--font-roboto);
+  font-size: 21px;
+}
+
+/* ******MEDIA QUERIES******** */
+
+@media (min-width: 1000px) {
+  div.first_section {
+    width: 70%;
+  }
+
+  div.second_section,
+  div.third_section,
+  div.fourth_section {
+    display: flex;
+    gap: 4em;
+  }
+
+  div.second_section p + p {
+    margin: 0;
+  }
+
+  img.first-pic,
+  img.second-pic {
+    margin-bottom: 0;
+  }
+
+  .img-primary,
+  .img-secondary {
+    flex-grow: 1;
   }
 }
