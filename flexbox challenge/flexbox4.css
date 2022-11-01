@@ -95,6 +95,11 @@ div.third_section p {
   margin-bottom: 2em;
 }
 
+img.first-pic,
+img.second-pic {
+  width: 100%;
+}
+
 /* **********FOURTH*********** */
 
 .fourth {
@@ -141,8 +146,7 @@ h2.fourth-title {
     margin-bottom: 0;
   }
 
-  .img-primary,
-  .img-secondary {
-    flex-grow: 1;
+  .col {
+    flex: 0 1 50%;
   }
 }
