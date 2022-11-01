@@ -50,7 +50,7 @@ div {
 }
 
 img {
-  max-width: 100%;
+  width: 300px;
 }
 
 /* SOLUTION TO THE ALIGNMENT ISSUE
@@ -59,3 +59,21 @@ https://forum.freecodecamp.org/t/align-items-property-not-working/333706
 
 
 */
+
+/* **************************** */
+
+p {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2rem;
+  border: 4px solid green;
+  background: lightseagreen;
+}
+
+.practice {
+  display: flex;
+  justify-content: space-between;
+}
+
+.one {
+}
