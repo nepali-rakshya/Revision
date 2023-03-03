@@ -1,0 +1,24 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.card-first {
+  flex-basis: 15em;
+  /* width: 15em; */
+  border: 2px solid palevioletred;
+}
+
+.card-img > img {
+  height: 15em;
+  object-fit: cover;
+}
