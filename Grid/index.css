@@ -5,15 +5,16 @@
 
 .container {
   background: red;
-  height: 600px;
-  width: 800px;
-  display: grid;
-  grid-template-rows: 100px;
-  /* grid-template-columns: 150px 150px; */
+  height: 700px;
+  width: 900px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .item {
   background: purple;
-  height: 100px;
-  width: 100px;
+  height: 122px;
+  width: 122px;
+  border: 2px solid black;
 }
