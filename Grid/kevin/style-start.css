@@ -144,14 +144,11 @@ h3 {
 
 /* components */
 
-.grid-col-span-2 {
-  grid-column: span 2;
-}
-
 .testimonial-grid {
   display: grid;
   gap: 1.5rem;
-
+  grid-auto-columns: 1fr;
+  grid-template-areas: "one" "two" "three" "four" "five";
   padding-block: 2rem;
   width: min(95%, 70rem);
   margin-inline: auto;
@@ -164,7 +161,35 @@ h3 {
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
 }
 
-@media (min-width: 50em) {
+.testimonial:nth-child(1) {
+  grid-area: one;
+}
+.testimonial:nth-child(2) {
+  grid-area: two;
+}
+.testimonial:nth-child(3) {
+  grid-area: three;
+}
+.testimonial:nth-child(4) {
+  grid-area: four;
+}
+.testimonial:nth-child(5) {
+  grid-area: five;
+}
+
+@media (min-width: 30em) {
+  .testimonial-grid {
+    grid-template-areas:
+      "one one two five"
+      "three four four five";
+  }
+}
+
+/* @media (min-width: 50em) {
+  .grid-col-span-2 {
+    grid-column: span 2;
+  }
+
   .testimonial-grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -173,7 +198,7 @@ h3 {
     grid-row-start: 1;
     grid-row-end: span 2;
   }
-}
+} */
 
 .testimonial.quote {
   background-image: url("./images/bg-pattern-quotation.svg");
