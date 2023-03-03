@@ -151,7 +151,6 @@ h3 {
 .testimonial-grid {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(4, 1fr);
 
   padding-block: 2rem;
   width: min(95%, 70rem);
@@ -165,10 +164,15 @@ h3 {
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(var(--clr-secondary-400) / 0.25);
 }
 
-.testimonial:last-child {
-  grid-column-start: 4;
-  grid-row-start: 1;
-  grid-row-end: span 2;
+@media (min-width: 50em) {
+  .testimonial-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .testimonial:last-child {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+  }
 }
 
 .testimonial.quote {
