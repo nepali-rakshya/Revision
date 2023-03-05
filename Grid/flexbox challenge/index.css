@@ -14,11 +14,33 @@
   border: 2px solid black;
 }
 
-.card-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.one {
+  grid-area: one;
+  /* padding: 3em; */
+}
+.two {
+  grid-area: two;
+  /* padding: 3em; */
+}
+.three {
+  grid-area: three;
+  /* padding: 3em; */
+}
+.four {
+  grid-area: four;
+  /* padding: 3em; */
+}
+.five {
+  grid-area: five;
+  /* padding: 3em; */
 }
 
-.last {
-  grid-column: 3/4;
+.card-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1.5em 1fr 1fr 1.5em;
+  grid-template-areas:
+    "one one two two"
+    ". three four ."
+    "five five five five";
 }
