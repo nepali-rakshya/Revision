@@ -6,19 +6,19 @@
   box-sizing: border-box;
 }
 
-.card-container {
-  display: flex;
-  gap: 1em;
-  justify-content: center;
+.card-img > img {
+  height: 10em;
 }
 
 .card-first {
-  flex-basis: 15em;
-  /* width: 15em; */
-  border: 2px solid palevioletred;
+  border: 2px solid black;
 }
 
-.card-img > img {
-  height: 15em;
-  object-fit: cover;
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.last {
+  grid-column: 3/4;
 }
