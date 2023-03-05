@@ -11,28 +11,28 @@
 }
 
 .card-first {
-  border: 2px solid black;
+  border: 1px solid rgb(102, 96, 96);
 }
 
 .one {
   grid-area: one;
-  /* padding: 3em; */
+  background: pink;
 }
 .two {
   grid-area: two;
-  /* padding: 3em; */
+  background: pink;
 }
 .three {
   grid-area: three;
-  /* padding: 3em; */
+  background: yellowgreen;
 }
 .four {
   grid-area: four;
-  /* padding: 3em; */
+  background: yellowgreen;
 }
 .five {
   grid-area: five;
-  /* padding: 3em; */
+  background: skyblue;
 }
 
 .card-container {
